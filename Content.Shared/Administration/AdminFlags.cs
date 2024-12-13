@@ -128,6 +128,9 @@ namespace Content.Shared.Administration
         ///     DeltaV - The ability to whitelist people. Either this permission or +BAN is required for remove.
         /// </summary>
         Whitelist = 1 << 25,
+        ///     Lets you use the mentor help system.
+        /// </summary>
+        MentorHelp = 1 << 30,
 
         /// <summary>
         ///     Dangerous host permissions like scsi.
